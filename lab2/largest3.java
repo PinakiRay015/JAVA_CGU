@@ -1,4 +1,4 @@
-package day2;
+package lab2;
 import java.util.Scanner;
 public class largest3 {
     public static void main(String[] args) {
