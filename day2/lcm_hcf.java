@@ -1,3 +1,4 @@
+package day2;
 import java.util.Scanner;
 
 public class lcm_hcf
@@ -5,11 +6,11 @@ public class lcm_hcf
    public static void main(String[] args)
    {
       int c;
-      Scanner s = new Scanner(System.in);
+      Scanner java = new Scanner(System.in);
       
       System.out.print("Enter the Two Numbers: ");
-      int a = s.nextInt();
-      int b = s.nextInt();
+      int a = java.nextInt();
+      int b = java.nextInt();
       
       int num1 = a;
       int num2 = b;
@@ -26,5 +27,6 @@ public class lcm_hcf
       
       System.out.println("\nHCF(" +num1+ ", " +num2+ ") = " +hcf);
       System.out.println("LCM(" +num1+ ", " +num2+ ") = " +lcm);
+      java.close();
    }
 }
